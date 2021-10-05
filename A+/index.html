@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>A+</title>
     <title>Document</title>
 </head>
+
 <body>
     <header class="main-header">
         <div class="container">
@@ -22,7 +24,7 @@
                         <li><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
-             </div>
+            </div>
             <div class="header-promo">
                 <div class="promo-title">Учёба ещё никогда не была такой интересной!</div>
                 <p>Обучаем готовых к трудоустройству профессионалов на теоритических и практических курсах</p>
@@ -58,13 +60,14 @@
                     <img src="img/user.jpg" width="133" height="133" alt="Иванов Пётр">
                     <h3>Иванов Пётр Сергеевич</h3>
                     <p>Группа: 04-И-16<br>
-                    Выпуск: 2016г.</p>
+                        Выпуск: 2016г.</p>
 
                 </div>
                 <blockquote class="feedback-content">
                     <h3>Тяжело в учении, легко в бою.</h3>
                     <p>Во время обучения было очень тяжело,практические занятия требовали усидчивости и гибкости ума.
-                        Однако, по прошествии времени, понял, что всё это было не зря! Устроился в ведущую студию своего города
+                        Однако, по прошествии времени, понял, что всё это было не зря! Устроился в ведущую студию своего
+                        города
                         сразу после выпуска, а проработав там три года основал свою собственную!</p>
                 </blockquote>
             </div>
@@ -88,40 +91,101 @@
                             <label for="age">Возраст:</label>
                         </td>
                         <td class="field">
-                            <input type="text" id="age" name="age" placeholder="Укажите свой возраст, хотя бы приблизительно">
+                            <input type="text" id="age" name="age"
+                                placeholder="Укажите свой возраст, хотя бы приблизительно">
                         </td>
                     </tr>
                     <tr>
                         <td class="title">Пол:</td>
                         <td class="field">
-                            <label>
-                                <input type="radio" id="male" name="sex" value="male"> Мужской</label>
-                                <input type="radio" id="female" name="sex" value="female"> Женский</label>      
+                            <label><input type="radio" id="male" name="sex" value="male"> Мужской</label>
+                            <label><input type="radio" id="female" name="sex" value="female"> Женский</label>
                         </td>
                     </tr>
-                    <tr>
+                    <!-- <tr> Поля для телефона и почты
                         <td class="title">
                     
                         </td>
                         <td class="field">
                         </td>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <td class="title">
-                    
+                            <label for="message">Вопрос:</label>
                         </td>
                         <td class="field">
-                    
+                            <textarea name="message" id="message"
+                                placeholder="Сообщите всё, что считаете нужным"></textarea>
                         </td>
                     </tr>
-
+                    <tr>
+                        <td class="title"></td>
+                        <td class="field">
+                            <input type="submit" class="btn btn-green" value="Отправить">
+                        </td>
+                    </tr>
                 </table>
             </form>
             <div class="contacts-instruction">
-
+                <h3>Заинтересовались обучением на нашей кафедре?</h3>
+                <p>Заполните короткую форму обратной связи и отправьте нам</p>
+                <p>Мы подготовим для Вас индивидуальное предложение и выйдем на связь!</p>
+                <p class="contacts-alert"><strong>Внимание!</strong>Все поля обязательны для заполнения</p>
             </div>
         </div>
-
     </section>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-address">
+                    <div class="logo">
+                        <img src="img/logo-footer.png" width="180" height="81" alt="A+">
+                    </div>
+                    <p>197101, г. Санкт-Петербург,<br> пр. Кронверкский, д.49</p>
+                </div>
+                <div class="footer-menu">
+                    <h3>обучение</h3>
+                    <ul>
+                        <li><a href="#">Расписание</a></li>
+                        <li><a href="#">Предметы</a></li>
+                        <li><a href="#">Практика</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>Выпускники</h3>
+                    <ul>
+                        <li><a href="#">Достижения</a></li>
+                        <li><a href="#"></a>Отзывы</li>
+                        <li><a href="#"></a>Найти</li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>Как поступить</h3>
+                    <ul>
+                        <li><a href="#">На коммерцию</a></li>
+                        <li><a href="#"></a>Целевой набор</li>
+                        <li><a href="#"></a>На бюджет</li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><a href="#">Обратная связь</a></li>
+                        <li><a href="#">Схема проезда</a></li>
+                        <li><a href="#"></a>Телефон/факс</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">Все права защищены &copy; 2021</div>
+                <div class="footer-social-promo">Подписчикам в соц. сетях - скидки на обучение!</div>
+                <div class="footer-social">
+                    <a href="#" class="social-btn social-btn-vk">ВКонтакте</a>
+                    <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+                    <a href="#" class="social-btn social-btn-tw">Твиттер</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
