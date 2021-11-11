@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/assets/aplus/index.jpg") no-repeat top center;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  padding-top: 65px;
+  padding-bottom: 155px;
+}
